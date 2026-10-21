@@ -11,4 +11,4 @@ crash.*.log
 .env
 .env.*
 !.env.example
-'@ | Set-Content .gitignore
+'@ | Set-Content .gitignor
