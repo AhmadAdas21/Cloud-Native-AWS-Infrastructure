@@ -1,0 +1,14 @@
+@'
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+!.env.example
+'@ | Set-Content .gitignor
